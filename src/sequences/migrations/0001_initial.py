@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                     serialize=False,
                     verbose_name='name',
                 )),
-                ('last', models.PositiveIntegerField(
+                ('last', models.BigIntegerField(
                     verbose_name='last value',
                 )),
             ],
